@@ -1,0 +1,152 @@
+#root {
+  width: auto;
+  margin: 0 ;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 100vh;
+  
+}
+
+.App{
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(15px);
+  width: 600px;
+  height: 800px;
+  overflow: hidden;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/* NavBar Styling */
+.nav-wrapper{
+  background-color: #0fb2db ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  place-items: center;
+  height: 70px;
+  width: 100%;
+}
+.nav-logo{
+  height: 25px;
+}
+.nav-title{
+  margin-left: 6px;
+  font-size: 20px;
+}
+
+/* Cards Styling */
+
+.cards-section{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height:730px;
+  scroll-behavior: smooth;
+}
+
+
+
+
+.cards-section::-webkit-scrollbar {
+  width: 8px;
+}
+ 
+.cards-section ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+ 
+.cards-section::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid rgba(0, 0, 0, 0);
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+
+
+.card-wrapper{
+  color: black;
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 10px;
+}
+
+
+.card-photo-wrapper{
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+.card-photo{
+  height: 170px;
+  width: 130px;
+  object-fit: cover;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.anchor{
+  width: 12px;
+  padding-right: 5px;
+}
+
+.hero-wrapper{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-wrapper div{
+  padding: 5px;
+}
+.hero-location{
+  display: flex;
+ 
+}
+.location{
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+  
+ }
+.hero-location > a{
+  font-size: 14px;
+ padding-left: 15px;
+ color: #918E9B;
+}
+
+.hero-title{
+  font-size: 25px;
+
+}
+
+.hero-description{
+  font-size: 12px;
+  letter-spacing: .5px;
+}
+
+.hero-date{
+  font-size: 15px;
+
+}

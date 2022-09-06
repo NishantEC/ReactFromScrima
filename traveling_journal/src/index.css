@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  background-image: url(https://images.unsplash.com/photo-1662369981337-81c330d439f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
